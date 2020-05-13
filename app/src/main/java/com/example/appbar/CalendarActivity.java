@@ -100,7 +100,7 @@ public class CalendarActivity extends AppCompatActivity {
             @Override
             public void onSelectedDayChange(@NonNull CalendarView calendarView, int year, int month, int dayOfMonth) {
                 mStartDateTxt = year + "-" + month + "-" + dayOfMonth;
-                mChooseStartDate.setText(R.string.startDate + mStartDateTxt);
+                mChooseStartDate.setText(getString(R.string.startDate) + ".\n" + mStartDateTxt);
                 GregorianCalendar gregorianCalendar = new GregorianCalendar();
                 gregorianCalendar.set(year, month, dayOfMonth);
                 mStartDate = gregorianCalendar.getTimeInMillis();
@@ -113,7 +113,7 @@ public class CalendarActivity extends AppCompatActivity {
             @Override
             public void onSelectedDayChange(@NonNull CalendarView calendarView, int year, int month, int dayOfMonth) {
                 mEndDateTxt = year + "-" + month + "-" + dayOfMonth;
-                mChooseEndDate.setText(R.string.finishDate + mEndDateTxt);
+                mChooseEndDate.setText(getString(R.string.finishDate) +".\n" + mEndDateTxt);
                 GregorianCalendar gregorianCalendar = new GregorianCalendar();
                 gregorianCalendar.set(year, month, dayOfMonth);
                 mEndDate = gregorianCalendar.getTimeInMillis();
