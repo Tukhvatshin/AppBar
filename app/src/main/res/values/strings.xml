@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">AppBar</string>
+    <string name="saveNote">Записная книжка</string>
+    <string name="checkBox">CheckBox</string>
+    <string name="spinner">Spinner</string>
+    <string name="calendarView">Календарь</string>
+    <string name="openSvNote">Открыть записную книжку</string>
+    <string name="openChkBox">Открыть платежи</string>
+    <string name="openSpn">Открыть выбор адреса</string>
+    <string name="openClndr">Открыть календарь</string>
+    <string name="btnOK">OK</string>
+    <string name="bankCardChkBx">С банковской карты</string>
+    <string name="mobilePhoneChkBx">С мобильного телефона</string>
+    <string name="cashAddressChkBx">Наличными по адресу</string>
+    <string name="inputMoney">Ввод денег</string>
+    <string name="inputInfo">Информация об оплате</string>
+    <string name="payComplt">Оплата произведена</string>
+    <string name="errorMsngr">Ошибка!</string>
+    <string name="btnSaveNote">Сохранить</string>
+    <string name="mInputNote" />
+    <string name="Savetxt">\Запись \"</string>
+    <string name="savetxt_1">\" сохранена</string>
+    <string name="MyNote">MyNote</string>
+    <string name="showAdress">Показать адрес</string>
+    <string-array name="countries">
+        <item>Россия</item>
+        <item>Украина</item>
+        <item>Белоруссия</item>
+    </string-array>
+    <string-array name="r_cities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Казань</item>
+    </string-array>
+    <string-array name="u_cities">
+        <item>Киев</item>
+        <item>Одесса</item>
+        <item>Харьков</item>
+    </string-array>
+    <string-array name="b_cities">
+        <item>Минск</item>
+        <item>Гомель</item>
+        <item>Торжок</item>
+    </string-array>
+    <string name="chooseStartDate">Дата - время старта задачи:</string>
+    <string name="chooseEndDate">Дата - время окончания задачи:</string>
+    <string name="buttonOK">OK</string>
+    <string name="startDate">Дата - время старта задачи:</string>
+    <string name="finishDate">Дата - время окончания задачи:</string>
+    <string name="checkB">CheckBox</string>
+    <string name="saveN">Записная книжка</string>
+    <string name="spnr">Spinner</string>
+    <string name="clndrV">Календарь</string>
+</resources>
